@@ -1,74 +1,86 @@
 .container {
-	background-color: #2a272e;
-	width: 100%;
-	padding: 50px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+  background-color: #2a272e;
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .container {
+    display: inline;
+  }
 }
 
 .row1,
 .row2 {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .headline {
-	font-size: 48px;
-	font-weight: 600;
-	color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .socials ul {
-	display: flex;
-	flex-direction: row;
-	gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+@media (max-width: 768px) {
+  .socials ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 .socials ul li {
-	list-style: none;
-	background-color: #881fef;
-	padding: 10px;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  list-style: none;
+  background-color: #881fef;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .HeroImg {
-	width: 45%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .gradient1 {
-	position: absolute;
-	background-color: #8844f7;
-	height: 50px;
-	width: 50px;
-	border-radius: 280px;
-	z-index: 0;
-	/* top: 2px;
+  position: absolute;
+  background-color: #8844f7;
+  height: 50px;
+  width: 50px;
+  border-radius: 280px;
+  z-index: 0;
+  /* top: 2px;
 	right: 10px; */
-	filter: blur(30px);
+  filter: blur(30px);
 }
 
 .HeroImgClass {
-	z-index: 2;
+  z-index: 2;
 }
 
 .gradient2 {
-	position: absolute;
-	z-index: 0;
-	/* bottom: -20px;
+  position: absolute;
+  z-index: 0;
+  /* bottom: -20px;
 	left: 50px; */
-	filter: blur(50px);
+  filter: blur(50px);
 }
 
 .row2 {
-	width: 100%;
-	justify-content: space-between;
+  width: 100%;
+  justify-content: space-between;
 }

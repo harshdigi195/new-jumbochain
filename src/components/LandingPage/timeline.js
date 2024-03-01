@@ -1,11 +1,11 @@
-import styles from '@/styles/timeline.module.css';
-import Image from 'next/image';
+import styles from "@/styles/timeline.module.css";
+import Image from "next/image";
 
 function Timeline() {
-	return (
-		<div className={styles.section}>
-			<img src={'/images/timeline.svg'} />
-			{/* <div className={styles.title}>Our Timeline</div>
+  return (
+    <div className={styles.section}>
+      <img src={"/images/timeline.svg"} className={styles.time} />
+      {/* <div className={styles.title}>Our Timeline</div>
 			<div className={styles.timelineContainer}>
 				<div className={styles.dot1}>
 					<span>
@@ -100,16 +100,16 @@ function Timeline() {
 					<p>CBDC Integration</p>
 				</div>
 			</div> */}
-			<div className={styles.bg}>
-				<Image
-					src='/images/Looper-BG.png'
-					width='2260'
-					height='1396'
-					// className={styles.bg}
-				/>
-			</div>
-		</div>
-	);
+      <div className={styles.bg}>
+        <Image
+          src="/images/Looper-BG.png"
+          width="2260"
+          height="1396"
+          // className={styles.bg}
+        />
+      </div>
+    </div>
+  );
 }
 
 export default Timeline;

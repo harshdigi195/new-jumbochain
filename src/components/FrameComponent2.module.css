@@ -1,492 +1,540 @@
 .utilityOfBlockchain {
-	margin: 0;
-	width: 100%;
-	position: relative;
-	font-size: inherit;
-	font-weight: 700;
-	font-family: inherit;
-	display: inline-block;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
 }
 .jumbochainIsCommitted {
-	width: 367px;
-	position: relative;
-	font-size: var(--font-size-base);
-	line-height: 30px;
-	text-transform: capitalize;
-	color: var(--color-dimgray-100);
-	display: inline-block;
+  width: 367px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  text-transform: capitalize;
+  color: var(--color-dimgray-100);
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .jumbochainIsCommitted {
+    width: 285px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 30px;
+    text-transform: capitalize;
+    color: var(--color-dimgray-100);
+  }
 }
 .dec,
 .subcontentFrame {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
+
+@media (max-width: 768px) {
+  .dec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .dec {
-	justify-content: flex-start;
-	text-align: center;
-	gap: 19px 0;
+  justify-content: flex-start;
+  text-align: center;
+  gap: 19px 0;
 }
 .subcontentFrame {
-	border-radius: var(--br-3xs);
-	background-color: var(--color-lavender-100);
-	overflow: hidden;
-	justify-content: space-evenly;
-	padding: var(--padding-10xl) var(--padding-39xl);
-	box-sizing: border-box;
-	min-width: 483px;
-	min-height: 514px;
-	max-width: 100%;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  justify-content: space-evenly;
+  padding: var(--padding-10xl) var(--padding-39xl);
+  box-sizing: border-box;
+  min-width: 483px;
+  min-height: 514px;
+  max-width: 100%;
 }
 .carbonFootprint {
-	margin: 0;
-	width: 100%;
-	position: relative;
-	font-size: inherit;
-	font-weight: 700;
-	font-family: inherit;
-	display: inline-block;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
 }
 .jumbochainIsCommitted1 {
-	width: 100%;
-	position: relative;
-	font-size: var(--font-size-base);
-	line-height: 30px;
-	text-transform: capitalize;
-	color: var(--color-dimgray-100);
-	display: inline-block;
+  width: 100%;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  text-transform: capitalize;
+  color: var(--color-dimgray-100);
+  display: inline-block;
 }
 .blogs,
 .contentFrame,
 .joinTheCommunity {
-	display: flex;
-	align-items: flex-start;
-	max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
 }
 .joinTheCommunity {
-	flex-direction: column;
-	justify-content: flex-start;
-	gap: 19px 0;
-	width: 100%;
-	text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 19px 0;
+  width: 100%;
+  text-align: center;
 }
 .blogs,
 .contentFrame {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 .blogs {
-	flex: 1;
-	border-radius: var(--br-3xs);
-	background-color: var(--color-lavender-100);
-	overflow: hidden;
-	flex-direction: column;
-	justify-content: space-evenly;
-	padding: var(--padding-10xl) var(--padding-37xl);
-	min-width: 428px;
-	min-height: 514px;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: var(--padding-10xl) var(--padding-37xl);
+  min-width: 428px;
+  min-height: 514px;
 }
 .contentFrame {
-	align-self: stretch;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding: 0 var(--padding-12xs) 0 0;
-	gap: 0 40px;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 40px;
 }
 .esgFramework,
 .esgStandsFor {
-	position: relative;
-	display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .esgFramework {
-	margin: 0;
-	width: 100%;
-	font-size: inherit;
-	font-weight: 700;
-	font-family: inherit;
+  margin: 0;
+  width: 100%;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
 }
 .esgStandsFor {
-	width: 100%;
-	height: 50%;
-	font-size: var(--font-size-base);
-	line-height: 30px;
-	text-transform: capitalize;
-	font-family: var(--font-poppins);
-	color: var(--color-dimgray-100);
-	flex-shrink: 0;
+  width: 100%;
+  height: 50%;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-dimgray-100);
+  flex-shrink: 0;
 }
 .ourVisionFrame {
-	justify-content: center;
-	text-align: center;
-	align-items: center;
-	gap: 35px 0;
-	width: 60%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 35px 0;
+  width: 60%;
 }
 .jumboFrame,
 .ourVisionFrame,
 .subtitle {
-	align-self: stretch;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .jumboFrame,
+  .ourVisionFrame,
+  .subtitle {
+    align-self: center;
+  }
 }
 .jumboFrame {
-	border-radius: var(--br-3xs);
-	background-color: var(--color-lavender-100);
-	overflow: hidden;
-	flex-direction: row-reverse;
-	justify-content: flex-end;
-	padding: var(--padding-4xl) var(--padding-39xl);
-	box-sizing: border-box;
-	min-height: 435px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding: var(--padding-4xl) var(--padding-39xl);
+  box-sizing: border-box;
+  min-height: 435px;
+}
+@media (max-width: 768px) {
+  .jumboFrame {
+    flex-direction: column;
+  }
 }
 .subtitle {
-	justify-content: flex-start;
-	gap: 44px 0;
-	max-width: 100%;
+  justify-content: flex-start;
+  gap: 44px 0;
+  max-width: 100%;
 }
 .walletCompatibility {
-	margin: 0;
-	width: 100%;
-	position: relative;
-	font-size: inherit;
-	font-weight: 700;
-	font-family: inherit;
-	display: inline-block;
+  margin: 0;
+  width: 100%;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
 }
 .jumbochainWillHave {
-	width: 100%;
-	height: 121px;
-	position: relative;
-	font-size: var(--font-size-base);
-	line-height: 30px;
-	text-transform: capitalize;
-	font-family: var(--font-poppins);
-	color: var(--color-dimgray-100);
-	display: inline-block;
-	flex-shrink: 0;
+  width: 100%;
+  height: 121px;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  flex-shrink: 0;
 }
 .frameWrapper,
 .walletCompatibilityParent {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .walletCompatibilityParent {
-	justify-content: flex-start;
-	gap: 19px 0;
-	text-align: center;
-	width: 100%;
+  justify-content: flex-start;
+  gap: 19px 0;
+  text-align: center;
+  width: 100%;
 }
 .frameWrapper {
-	border-radius: var(--br-3xs);
-	background-color: var(--color-lavender-100);
-	overflow: hidden;
-	justify-content: flex-end;
-	padding: var(--padding-7xl) var(--padding-39xl);
-	box-sizing: border-box;
-	min-width: 483px;
-	min-height: 423px;
-	max-width: 500px;
-	align-items: center;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  justify-content: flex-end;
+  padding: var(--padding-7xl) var(--padding-39xl);
+  box-sizing: border-box;
+  min-width: 483px;
+  min-height: 423px;
+  max-width: 500px;
+  align-items: center;
 }
 .transactionSpeedtps,
 .withAnAverage {
-	position: relative;
-	display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .transactionSpeedtps {
-	margin: 0;
-	width: 100%;
-	font-size: inherit;
-	font-weight: 700;
-	font-family: inherit;
+  margin: 0;
+  width: 100%;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
 }
 .withAnAverage {
-	width: 367px;
-	font-size: var(--font-size-base);
-	line-height: 30px;
-	text-transform: capitalize;
-	font-family: var(--font-poppins);
-	color: var(--color-dimgray-100);
+  width: 367px;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-dimgray-100);
 }
 .transactionSpeedtpsParent {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	justify-content: flex-start;
-	gap: 19px 0;
-	max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-start;
+  gap: 19px 0;
+  max-width: 100%;
 }
 .frameContainer,
 .frameParent {
-	display: flex;
-	align-items: flex-start;
-	box-sizing: border-box;
-	max-width: 100%;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
 }
 .frameContainer {
-	flex: 1;
-	border-radius: var(--br-3xs);
-	background-color: var(--color-lavender-100);
-	overflow: hidden;
-	flex-direction: column;
-	justify-content: flex-end;
-	padding: var(--padding-14xl) var(--padding-37xl);
-	min-width: 428px;
-	min-height: 423px;
-	align-items: center;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-14xl) var(--padding-37xl);
+  min-width: 428px;
+  min-height: 423px;
+  align-items: center;
 }
 .frameParent {
-	align-self: stretch;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding: 0 var(--padding-12xs) 0 0;
-	gap: 0 40px;
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: 0 40px;
 }
 .nftMarketplace,
 .toWorkFor {
-	position: relative;
-	display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 .nftMarketplace {
-	margin: 0;
-	width: 269px;
-	font-size: inherit;
-	font-weight: 700;
-	font-family: inherit;
+  margin: 0;
+  width: 269px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
 }
 .toWorkFor {
-	width: 100%;
-	height: fit-content;
-	font-size: var(--font-size-base);
-	line-height: 30px;
-	text-transform: capitalize;
-	font-family: var(--font-poppins);
-	color: var(--color-dimgray-100);
-	flex-shrink: 0;
+  width: 100%;
+  height: fit-content;
+  font-size: var(--font-size-base);
+  line-height: 30px;
+  text-transform: capitalize;
+  font-family: var(--font-poppins);
+  color: var(--color-dimgray-100);
+  flex-shrink: 0;
 }
 .nftMarketplaceParent {
-	justify-content: center;
-	width: 70%;
-	text-align: center;
-	gap: 35px 0;
+  justify-content: center;
+  width: 70%;
+  text-align: center;
+  gap: 35px 0;
 }
 .nftMarketplaceParent,
 .subtitle1,
 .subtitleInner {
-	align-self: stretch;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .nftMarketplaceParent,
+  .subtitle1,
+  .subtitleInner {
+    align-self: center;
+  }
 }
 .subtitleInner {
-	border-radius: var(--br-3xs);
-	background-color: var(--color-lavender-100);
-	overflow: hidden;
-	flex-direction: row-reverse;
-	justify-content: center;
-	align-items: center;
-	padding: var(--padding-14xl) var(--padding-39xl);
-	box-sizing: border-box;
-	min-height: 435px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lavender-100);
+  overflow: hidden;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-14xl) var(--padding-39xl);
+  box-sizing: border-box;
+  min-height: 435px;
+}
+@media (max-width: 768px) {
+  .subtitleInner {
+    flex-direction: column;
+  }
 }
 .subtitle1 {
-	justify-content: flex-start;
-	gap: 44px 0;
-	max-width: 100%;
+  justify-content: flex-start;
+  gap: 44px 0;
+  max-width: 100%;
 }
 .joinTheCommunityFrame,
 .jumboBlogsFrame {
-	position: absolute;
-	top: 0;
-	left: 0;
-	border-radius: 50%;
-	background-color: var(--color-thistle-300);
-	width: 100%;
-	height: 100%;
-	z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-thistle-300);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
 .joinTheCommunityFrame {
-	top: 0.2px;
-	left: 0.3px;
-	background-color: var(--color-lavender-200);
-	box-shadow: 0 6.1px 6.08px rgba(0, 0, 0, 0.25);
-	z-index: 2;
+  top: 0.2px;
+  left: 0.3px;
+  background-color: var(--color-lavender-200);
+  box-shadow: 0 6.1px 6.08px rgba(0, 0, 0, 0.25);
+  z-index: 2;
 }
 .image67Icon {
-	position: absolute;
-	width: calc(100% - 18px);
-	top: 12px;
-	right: 9px;
-	left: 9px;
-	max-width: 100%;
-	overflow: hidden;
-	height: 169.9px;
-	object-fit: cover;
-	z-index: 3;
+  position: absolute;
+  width: calc(100% - 18px);
+  top: 12px;
+  right: 9px;
+  left: 9px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 169.9px;
+  object-fit: cover;
+  z-index: 3;
 }
 .navigatingTheFutureFrame {
-	position: absolute;
-	top: 37px;
-	left: 32px;
-	width: 194px;
-	height: 194px;
+  position: absolute;
+  top: 37px;
+  left: 32px;
+  width: 194px;
+  height: 194px;
 }
 .rectangleShape {
-	height: 269px;
-	flex: 1;
-	position: relative;
+  height: 269px;
+  flex: 1;
+  position: relative;
 }
 .ourClientsFrame {
-	width: 260px;
-	margin: 0 !important;
-	position: absolute;
-	bottom: 714px;
-	left: 374px;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+  width: 260px;
+  margin: 0 !important;
+  position: absolute;
+  bottom: 714px;
+  left: 374px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .headerSection,
 .title {
-	display: flex;
-	flex-direction: column;
-	max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
 }
 .title {
-	align-self: stretch;
-	align-items: flex-start;
-	justify-content: flex-start;
-	position: relative;
-	gap: 32px 0;
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 32px 0;
 }
 .headerSection {
-	flex: 1;
-	align-items: center;
-	justify-content: center;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
 }
 .headerSectionWrapper {
-	width: 1206px;
-	display: flex;
-	flex-direction: row;
-	align-items: flex-start;
-	justify-content: flex-start;
-	padding: 0 0 0 var(--padding-5xl);
-	box-sizing: border-box;
-	max-width: 100%;
-	text-align: left;
-	font-size: var(--font-size-17xl);
-	color: var(--color-black);
-	font-family: var(--font-inter);
+  width: 1206px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
 }
 @media screen and (max-width: 1200px) {
-	.jumboFrame,
-	.subtitleInner {
-		padding-left: var(--padding-10xl);
-		padding-right: var(--padding-10xl);
-		box-sizing: border-box;
-	}
+  .jumboFrame,
+  .subtitleInner {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
 }
 @media screen and (max-width: 1050px) {
-	.utilityOfBlockchain {
-		font-size: var(--font-size-10xl);
-	}
-	.subcontentFrame {
-		flex: 1;
-		min-height: auto;
-	}
-	.carbonFootprint {
-		font-size: var(--font-size-10xl);
-	}
-	.blogs {
-		min-height: auto;
-	}
-	.contentFrame {
-		flex-wrap: wrap;
-	}
-	.esgFramework,
-	.walletCompatibility {
-		font-size: var(--font-size-10xl);
-	}
-	.frameWrapper {
-		flex: 1;
-		min-height: auto;
-	}
-	.transactionSpeedtps {
-		font-size: var(--font-size-10xl);
-	}
-	.frameContainer {
-		min-height: auto;
-	}
-	.frameParent {
-		flex-wrap: wrap;
-	}
-	.nftMarketplace {
-		font-size: var(--font-size-10xl);
-	}
+  .utilityOfBlockchain {
+    font-size: var(--font-size-10xl);
+  }
+  .subcontentFrame {
+    flex: 1;
+    min-height: auto;
+  }
+  .carbonFootprint {
+    font-size: var(--font-size-10xl);
+  }
+  .blogs {
+    min-height: auto;
+  }
+  .contentFrame {
+    flex-wrap: wrap;
+  }
+  .esgFramework,
+  .walletCompatibility {
+    font-size: var(--font-size-10xl);
+  }
+  .frameWrapper {
+    flex: 1;
+    min-height: auto;
+  }
+  .transactionSpeedtps {
+    font-size: var(--font-size-10xl);
+  }
+  .frameContainer {
+    min-height: auto;
+  }
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .nftMarketplace {
+    font-size: var(--font-size-10xl);
+  }
 }
 @media screen and (max-width: 750px) {
-	.blogs,
-	.subcontentFrame {
-		padding-left: var(--padding-10xl);
-		padding-right: var(--padding-10xl);
-		box-sizing: border-box;
-		min-width: 100%;
-	}
-	.blogs {
-		padding-left: var(--padding-9xl);
-		padding-right: var(--padding-9xl);
-	}
-	.contentFrame {
-		gap: 0 40px;
-	}
-	.ourVisionFrame {
-		gap: 35px 0;
-	}
-	.subtitle {
-		gap: 44px 0;
-	}
-	.frameContainer,
-	.frameWrapper {
-		padding-left: var(--padding-10xl);
-		padding-right: var(--padding-10xl);
-		box-sizing: border-box;
-		min-width: 100%;
-	}
-	.frameContainer {
-		padding-left: var(--padding-9xl);
-		padding-right: var(--padding-9xl);
-	}
-	.frameParent {
-		gap: 0 40px;
-	}
-	.nftMarketplaceParent {
-		gap: 35px 0;
-	}
-	.subtitle1 {
-		gap: 44px 0;
-	}
-	.title {
-		gap: 32px 0;
-	}
+  .blogs,
+  .subcontentFrame {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+
+  .blogs {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+  .contentFrame {
+    gap: 0 40px;
+  }
+  .ourVisionFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px 0;
+  }
+  .subtitle {
+    gap: 44px 0;
+  }
+  .frameContainer,
+  .frameWrapper {
+    padding-left: var(--padding-10xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .frameContainer {
+    padding-left: var(--padding-9xl);
+    padding-right: var(--padding-9xl);
+  }
+  .frameParent {
+    gap: 0 40px;
+  }
+  .nftMarketplaceParent {
+    gap: 35px 0;
+  }
+  .subtitle1 {
+    gap: 44px 0;
+  }
+  .title {
+    gap: 32px 0;
+  }
 }
 @media screen and (max-width: 450px) {
-	.carbonFootprint,
-	.esgFramework,
-	.nftMarketplace,
-	.transactionSpeedtps,
-	.utilityOfBlockchain,
-	.walletCompatibility {
-		font-size: var(--font-size-3xl);
-	}
+  .carbonFootprint,
+  .esgFramework,
+  .nftMarketplace,
+  .transactionSpeedtps,
+  .utilityOfBlockchain,
+  .walletCompatibility {
+    font-size: var(--font-size-3xl);
+  }
 }
 
 .utilImage {
-	width: 100%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

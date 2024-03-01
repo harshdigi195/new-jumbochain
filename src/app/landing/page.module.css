@@ -1,153 +1,163 @@
 .HeroContainer {
-	padding: 7rem 5rem;
-	display: flex;
-	flex-direction: row;
+  padding: 7rem 5rem;
+  display: flex;
+  flex-direction: row;
 }
 
 .HeroText {
-	width: 55%;
-	display: flex;
-	flex-direction: column;
-	gap: 37px;
-	color: #5c5c5c;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 37px;
+  color: #5c5c5c;
 }
 
 .HeroText h1 {
-	font-size: 54px;
-	font-weight: 700;
+  font-size: 54px;
+  font-weight: 700;
 }
 
 .HeroText p {
-	width: 80%;
-	font-size: 32px;
-	font-weight: 400;
+  width: 80%;
+  font-size: 32px;
+  font-weight: 400;
 }
 
 .HeroBtnGroup {
-	display: flex;
-	flex-direction: row;
-	gap: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
 }
 
 .ColorBtn1 {
-	background: linear-gradient(to right, #824af7, #b66cff);
-	padding: 15px 45px;
-	border-radius: 30px;
-	font-size: 20px;
-	box-shadow: 0 4px 4px #9b76d8;
-	color: #fff;
+  background: linear-gradient(to right, #824af7, #b66cff);
+  padding: 15px 45px;
+  border-radius: 30px;
+  font-size: 20px;
+  box-shadow: 0 4px 4px #9b76d8;
+  color: #fff;
 }
 
 .LightBtn1 {
-	background: #fff;
-	color: #8951f7;
-	padding: 15px 45px;
-	border-radius: 30px;
-	font-size: 20px;
-	box-shadow: 0 4px 4px #c4b2e2;
+  background: #fff;
+  color: #8951f7;
+  padding: 15px 45px;
+  border-radius: 30px;
+  font-size: 20px;
+  box-shadow: 0 4px 4px #c4b2e2;
 }
 
 .ColorBtn1:hover,
 .LightBtn1:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .HeroImg {
-	width: 45%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .gradient1 {
-	position: absolute;
-	background-color: #8844f7;
-	height: 280px;
-	width: 280px;
-	border-radius: 280px;
-	z-index: -1;
-	top: 20px;
-	right: 100px;
-	filter: blur(200px);
+  position: absolute;
+  background-color: #8844f7;
+  height: 280px;
+  width: 280px;
+  border-radius: 280px;
+  z-index: -1;
+  top: 20px;
+  right: 100px;
+  filter: blur(200px);
 }
 
 .gradient2 {
-	position: absolute;
-	z-index: -1;
-	bottom: -200px;
-	left: 50px;
-	filter: blur(100px);
+  position: absolute;
+  z-index: -1;
+  bottom: -200px;
+  left: 50px;
+  filter: blur(100px);
 }
 
 @keyframes heroAnimation {
-	0% {
-		transform: translateY(-10px);
-	}
-	50% {
-		transform: translateY(10px);
-	}
-	100% {
-		transform: translateY(-10px);
-	}
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 .HeroImgClass {
-	animation: heroAnimation 2s ease-in-out 0s infinite;
+  animation: heroAnimation 2s ease-in-out 0s infinite;
 }
 
 .textAreaSection {
-	width: 100%;
-	padding: 3rem 0rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
+  width: 100%;
+  padding: 3rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .textArea3 {
-	width: 85%;
-	font-size: 28px;
-	color: #5c5c5c;
+  width: 85%;
+  font-size: 28px;
+  color: #5c5c5c;
 }
 .centerContainer {
-	padding: 10rem 0rem;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	gap: 156px;
-	justify-content: center;
-	align-items: center;
+  padding: 10rem 0rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .centerContainer {
+    gap: 156px;
+  }
 }
 
 .visionContainer {
-	padding: 43px 64px;
-	display: flex;
-	width: 80%;
-	flex-direction: column;
-	border-radius: 20px;
-	gap: 20px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 43px 10px;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  border-radius: 20px;
+  gap: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+@media (min-width: 768px) {
+  .visionContainer {
+    padding: 43px 64px;
+  }
 }
 
 .visionHeadline {
-	font-size: 48px;
-	font-weight: 600;
+  font-size: 48px;
+  font-weight: 600;
 }
 
 .visionBody {
-	font-size: 22px;
-	text-align: center;
+  font-size: 22px;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
-	.HeroText p {
-		color: #ccc;
-	}
-	.ColorBtn1 {
-		color: #000;
-	}
-	.textArea3 {
-		color: #ccc;
-	}
+  .HeroText p {
+    color: #ccc;
+  }
+  .ColorBtn1 {
+    color: #000;
+  }
+  .textArea3 {
+    color: #ccc;
+  }
 }
