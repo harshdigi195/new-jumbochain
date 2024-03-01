@@ -1,0 +1,525 @@
+.looperBgIcon {
+	width: 2544.1px;
+	height: calc(100% + 0.4px);
+	position: absolute;
+	margin: 0 !important;
+	top: 0;
+	bottom: -0.4px;
+	left: -991px;
+	max-height: 100%;
+	object-fit: contain;
+}
+.facebookIcon,
+.facebookIcon1 {
+	width: 7px;
+	position: absolute;
+	margin: 0 !important;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.facebookIcon {
+	height: 494.1px;
+	bottom: 688.9px;
+	left: 656.5px;
+	border-right: 7px dashed var(--color-blueviolet-300);
+}
+.facebookIcon1 {
+	height: 326px;
+	top: 431px;
+	left: 656px;
+	border-right: 7px solid var(--color-blueviolet-300);
+}
+.ourTimeline {
+	margin: 0;
+	width: 419px;
+	height: 113px;
+	position: relative;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: inherit;
+	display: inline-block;
+	flex-shrink: 0;
+	max-width: 100%;
+	z-index: 1;
+}
+.linkedInFollowersChild {
+	width: 39.6px;
+	height: 39.6px;
+	position: absolute;
+	margin: 0 !important;
+	top: 0;
+	right: 12.2px;
+	z-index: 2;
+}
+.testnetLaunch {
+	width: 221px;
+	position: relative;
+	font-size: var(--font-size-xl);
+	font-weight: 500;
+	font-family: var(--font-inter);
+	color: var(--color-black);
+	text-align: right;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.blogsFrameChild {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-200);
+}
+.solarwalletOutlineIcon {
+	height: 31.4px;
+	width: 31.4px;
+	position: absolute;
+	margin: 0 !important;
+	top: 9.31px;
+	left: 9.37px;
+	overflow: hidden;
+	flex-shrink: 0;
+	z-index: 1;
+}
+.blogsFrame {
+	align-self: stretch;
+	width: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: relative;
+	gap: 0 6.68px;
+}
+.jumboBlockchainVisionFrame,
+.ourMissionFrame,
+.ourVisionFrame {
+	align-self: stretch;
+	flex: 1;
+	display: flex;
+	justify-content: flex-start;
+}
+.ourMissionFrame {
+	flex-direction: row;
+	align-items: center;
+	gap: 0 18.03px;
+}
+.jumboBlockchainVisionFrame,
+.ourVisionFrame {
+	flex-direction: column;
+	align-items: flex-start;
+}
+.ourVisionFrame {
+	cursor: pointer;
+	border: 0;
+	padding: 12.688430786132812px var(--padding-16xl) 12.688430786132812px
+		16.695302963256836px;
+	background-color: var(--color-ghostwhite);
+	border-radius: 13.36px;
+	box-shadow: 0 2.7px 2.67px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+}
+.jumboBlockchainVisionFrame {
+	gap: 256px 0;
+	z-index: 1;
+}
+.frameChild {
+	width: 39.6px;
+	height: 39.6px;
+	position: absolute;
+	top: -58%;
+	right: 61%;
+	z-index: 2;
+}
+.frameItem {
+	width: 39.6px;
+	height: 39.6px;
+	position: absolute;
+	top: -6%;
+	right: 46%;
+	z-index: 2;
+}
+
+.frameInner {
+	width: 39.6px;
+	height: 39.6px;
+	position: absolute;
+	top: 44%;
+	right: 60%;
+	z-index: 2;
+}
+
+.frameChild1 {
+	width: 39.6px;
+	height: 39.6px;
+	position: absolute;
+	top: 96%;
+	right: 58%;
+	z-index: 2;
+}
+
+.frameItem {
+	width: 64px;
+	height: 64px;
+}
+.groupIcon {
+	width: 39.6px;
+	height: 39.6px;
+	position: absolute;
+	top: 149%;
+	right: 59%;
+	z-index: 2;
+}
+.facebookFollowersInner,
+.frameGroup {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.frameGroup {
+	align-items: center;
+	gap: 116px 0;
+	height: 20rem;
+	width: 5rem;
+	position: relative;
+}
+.facebookFollowersInner {
+	align-items: flex-start;
+	padding: 0 0 var(--padding-8xs);
+}
+.facebookFollowers {
+	align-self: stretch;
+	flex: 1;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0 14px;
+}
+.linkedInFollowers,
+.linkedInFollowersWrapper {
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+}
+.linkedInFollowers {
+	align-self: stretch;
+	height: 869px;
+	align-items: center;
+	justify-content: flex-end;
+	padding: var(--padding-113xl) 0 0;
+	position: relative;
+}
+.linkedInFollowersWrapper {
+	flex: 1;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: var(--padding-sm) 0 0;
+	min-width: 255px;
+	max-width: 100%;
+}
+.ellipseNode {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-200);
+}
+.solarwalletOutlineIcon1 {
+	height: 31.4px;
+	width: 31.4px;
+	position: absolute;
+	margin: 0 !important;
+	top: 9.3px;
+	left: 9.3px;
+	overflow: hidden;
+	flex-shrink: 0;
+	z-index: 1;
+}
+.ellipseNodeParent {
+	height: 50.1px;
+	width: 50px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	position: relative;
+	gap: 0 6.68px;
+}
+.jumbochainBlockchainBuild {
+	height: 44px;
+	width: 245px;
+	position: relative;
+	font-weight: 500;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.frameContainer,
+.jumbochainBuildFrame {
+	display: flex;
+	justify-content: flex-start;
+}
+.frameContainer {
+	flex-direction: row;
+	align-items: center;
+	gap: 0 18.03px;
+	flex-shrink: 0;
+}
+.jumbochainBuildFrame {
+	border-radius: 13.36px;
+	background-color: var(--color-ghostwhite);
+	box-shadow: 0 2.7px 2.67px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 12.688430786132812px var(--padding-8xl) 12.688430786132812px
+		16.695302963256836px;
+}
+.jumbochainBuildFrameParent {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 246px 0;
+	min-width: 357px;
+	z-index: 1;
+	text-align: left;
+	font-size: var(--font-size-xl);
+}
+.frameParent,
+.jumbochainBuildFrameParent,
+.slackIcon,
+.twitterIcon {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 100%;
+}
+.frameParent {
+	width: 769px;
+	flex-direction: row;
+	align-items: flex-start;
+	gap: 0 19px;
+	text-align: right;
+	font-size: var(--font-size-base);
+	color: var(--color-black);
+}
+.slackIcon,
+.twitterIcon {
+	flex-direction: column;
+}
+.slackIcon {
+	align-self: stretch;
+	align-items: center;
+	padding: var(--padding-190xl) var(--padding-86xl) var(--padding-638xl)
+		var(--padding-xl);
+	box-sizing: border-box;
+	position: relative;
+	gap: 71px 0;
+}
+.twitterIcon {
+	width: 1440px;
+	align-items: flex-start;
+	min-height: 2602px;
+}
+.jumboblockchainAimsTo,
+.ourVision {
+	position: relative;
+	display: inline-block;
+}
+.ourVision {
+	margin: 0;
+	width: 265px;
+	height: 75px;
+	font-size: inherit;
+	font-weight: 600;
+	font-family: inherit;
+	flex-shrink: 0;
+}
+.jumboblockchainAimsTo {
+	width: 1126px;
+	font-size: var(--font-size-5xl);
+	color: var(--color-dimgray-100);
+	text-align: center;
+}
+.ourClientsTextNode,
+.rectangleNode {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.rectangleNode {
+	gap: 14px 0;
+}
+.ourClientsTextNode {
+	border-radius: var(--br-xl);
+	background-color: var(--color-white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	padding: var(--padding-45xl) var(--padding-24xl);
+}
+.ourMission,
+.ourMissionAt {
+	position: relative;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.ourMission {
+	margin: 0;
+	width: 298px;
+	height: 80px;
+	font-size: inherit;
+	font-weight: 600;
+	font-family: inherit;
+}
+.ourMissionAt {
+	width: 1126px;
+	height: 167px;
+	font-size: var(--font-size-5xl);
+	color: var(--color-dimgray-100);
+	text-align: center;
+}
+.clientFrame,
+.ourMissionParent {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.ourMissionParent {
+	gap: 20px 0;
+}
+.clientFrame {
+	border-radius: var(--br-xl);
+	background-color: var(--color-white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	padding: var(--padding-30xl) var(--padding-20xl);
+}
+.discordIcon,
+.ourClientsTextNodeParent {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 100%;
+}
+.ourClientsTextNodeParent {
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 155px 0;
+	z-index: 1;
+	margin-left: -1326px;
+	font-size: var(--font-size-29xl);
+	color: var(--color-blueviolet-300);
+}
+.discordIcon {
+	align-self: stretch;
+	flex-direction: row;
+	align-items: flex-end;
+	text-align: left;
+	font-size: var(--font-size-45xl);
+	color: var(--color-midnightblue);
+	font-family: var(--font-inter);
+}
+@media screen and (max-width: 1200px) {
+	.slackIcon {
+		padding-top: var(--padding-117xl);
+		padding-bottom: var(--padding-408xl);
+		box-sizing: border-box;
+	}
+	.ourClientsTextNode {
+		padding-left: var(--padding-2xl);
+		padding-right: var(--padding-2xl);
+		box-sizing: border-box;
+	}
+	.ourClientsTextNodeParent {
+		gap: 155px 0;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.ourTimeline {
+		font-size: var(--font-size-32xl);
+	}
+	.linkedInFollowers,
+	.slackIcon {
+		padding-top: var(--padding-67xl);
+		box-sizing: border-box;
+	}
+	.slackIcon {
+		gap: 71px 0;
+		padding-top: var(--padding-69xl);
+		padding-right: var(--padding-33xl);
+		padding-bottom: var(--padding-259xl);
+	}
+	.ourMission,
+	.ourVision {
+		font-size: var(--font-size-19xl);
+	}
+}
+@media screen and (max-width: 750px) {
+	.jumbochainBuildFrameParent {
+		flex: 1;
+		min-width: 100%;
+	}
+	.frameParent {
+		flex-wrap: wrap;
+	}
+	.slackIcon {
+		padding-top: var(--padding-38xl);
+		padding-bottom: var(--padding-162xl);
+		box-sizing: border-box;
+	}
+	.ourClientsTextNodeParent {
+		gap: 155px 0;
+	}
+}
+@media screen and (max-width: 450px) {
+	.ourTimeline {
+		font-size: var(--font-size-19xl);
+	}
+	.testnetLaunch {
+		font-size: var(--font-size-base);
+	}
+	.jumboBlockchainVisionFrame {
+		gap: 256px 0;
+	}
+	.linkedInFollowers {
+		padding-top: var(--padding-37xl);
+		box-sizing: border-box;
+	}
+	.jumbochainBlockchainBuild {
+		font-size: var(--font-size-base);
+	}
+	.frameContainer {
+		flex-wrap: wrap;
+	}
+	.jumbochainBuildFrameParent {
+		gap: 246px 0;
+	}
+	.slackIcon {
+		gap: 71px 0;
+		padding-right: var(--padding-xl);
+		box-sizing: border-box;
+	}
+	.ourVision {
+		font-size: var(--font-size-10xl);
+	}
+	.jumboblockchainAimsTo {
+		font-size: var(--font-size-lgi);
+	}
+	.ourClientsTextNode {
+		padding-top: var(--padding-1327xl);
+		padding-bottom: var(--padding-23xl);
+		box-sizing: border-box;
+	}
+	.ourMission {
+		font-size: var(--font-size-10xl);
+	}
+	.ourMissionAt {
+		font-size: var(--font-size-lgi);
+	}
+	.clientFrame {
+		padding-top: var(--padding-1327xl);
+		padding-bottom: var(--padding-13xl);
+		box-sizing: border-box;
+	}
+	.ourClientsTextNodeParent {
+		gap: 155px 0;
+	}
+}

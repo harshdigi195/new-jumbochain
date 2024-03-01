@@ -1,0 +1,349 @@
+wrapperGroup1532Child {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	position: absolute;
+	left: -100px;
+	top: 189px;
+	transform: scale(1.434);
+}
+.wrapperGroup1532 {
+	width: 1156.2px;
+	height: 1044.5px;
+	position: absolute;
+	margin: 0 !important;
+	top: 0;
+	right: -264px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+}
+.clientBase,
+.ourMission {
+	align-self: stretch;
+	max-width: 100%;
+}
+.clientBase {
+	width: 478px;
+	position: relative;
+	border-radius: 50%;
+	background-color: #4a3189;
+	filter: blur(70px);
+}
+.ourMission {
+	height: 43px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+	padding: 0 var(--padding-xl) 0 267px;
+	box-sizing: border-box;
+}
+.rectangleShapeParent,
+.text {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.rectangleShapeParent {
+	width: 1507px;
+	flex-direction: column;
+	gap: 21px 0;
+	max-width: 112%;
+	flex-shrink: 0;
+}
+.text {
+	align-self: stretch;
+	flex-direction: row;
+	padding: 0 0 148px 93px;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.ecoFriendly,
+.hybridConsensusMechanism,
+.jumboShardingProtocol {
+	color: var(--color-blueviolet-300);
+}
+.jumbochainIsPioneeringContainer {
+	width: 1198px;
+	position: relative;
+	font-weight: 500;
+	display: inline-block;
+	flex-shrink: 0;
+	max-width: 100%;
+}
+.jumbochainIsPioneeringEcoFWrapper,
+.textBlock {
+	display: flex;
+	justify-content: flex-start;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.jumbochainIsPioneeringEcoFWrapper {
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0 0 var(--padding-17xl) var(--padding-7xs);
+	text-align: center;
+	font-size: var(--font-size-13xl);
+	color: var(--color-dimgray-200);
+	font-family: var(--font-inter);
+}
+.textBlock {
+	align-self: stretch;
+	flex-direction: column;
+	align-items: center;
+	padding: 0 0 var(--padding-32xl);
+	gap: 32px 0;
+}
+.ourClients1 {
+	margin: 0;
+	height: 113px;
+	flex: 1;
+	position: relative;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: inherit;
+	display: inline-block;
+	max-width: 100%;
+}
+.ourClients {
+	width: 394px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 0 var(--padding-base);
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.rectangleFrame {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	border-radius: var(--br-xl);
+	background-color: #d9d9d9;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	max-width: 100%;
+}
+.rectangleFrameWrapper {
+	width: 1234px;
+	height: 639px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 var(--padding-20xl) var(--padding-11xl);
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.blogs {
+	margin: 0;
+	height: 113px;
+	width: 253px;
+	position: relative;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: inherit;
+	display: inline-block;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	padding-right: var(--padding-xl);
+}
+.readingTimeFrame {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.minRead {
+	width: 128px;
+	height: 30px;
+	position: relative;
+	font-size: var(--font-size-xl);
+	font-family: var(--font-sometype-mono);
+	color: var(--color-black);
+	display: inline-block;
+	flex-shrink: 0;
+}
+.minReadFrame {
+	width: 1312px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: flex-start;
+	gap: 28px 0;
+	max-width: 100%;
+}
+.joinTheJumbochain {
+	margin: 0;
+	height: 223px;
+	width: 748px;
+	position: relative;
+	font-size: inherit;
+	font-weight: 700;
+	font-family: inherit;
+	display: inline-block;
+	flex-shrink: 0;
+	max-width: 100%;
+}
+.joinTheJumbochainCommunityWrapper {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 0 0 0 13px;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.whetherYouAre {
+	width: 1113px;
+	height: 83px;
+	position: relative;
+	font-size: var(--font-size-5xl);
+	font-weight: 500;
+	color: #2b2751;
+	display: inline-block;
+	flex-shrink: 0;
+	z-index: 1;
+}
+.rectangle {
+	flex-direction: column;
+	align-items: center;
+	max-width: 100%;
+}
+.blogsFrame,
+.ourClients2,
+.rectangle {
+	display: flex;
+	justify-content: flex-start;
+}
+.ourClients2 {
+	align-self: stretch;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0 38px;
+	box-sizing: border-box;
+	max-width: 100%;
+	text-align: center;
+}
+.blogsFrame {
+	width: 1824px;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 58px 0;
+	max-width: 137%;
+	flex-shrink: 0;
+}
+.blogsFrameWrapper,
+.landingPageLight {
+	display: flex;
+	justify-content: flex-start;
+	box-sizing: border-box;
+	text-align: left;
+	font-size: var(--font-size-45xl);
+	color: var(--color-midnightblue);
+	font-family: var(--font-inter);
+}
+.blogsFrameWrapper {
+	align-self: stretch;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 0 0 0 111px;
+	max-width: 100%;
+}
+.landingPageLight {
+	width: 100%;
+	position: relative;
+	background-color: var(--color-white);
+	overflow: hidden;
+	flex-direction: column;
+	align-items: center;
+	padding: var(--padding-9xl) 0 269px;
+	gap: 99px 0;
+	letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+	.text,
+	.textBlock {
+		box-sizing: border-box;
+	}
+	.text {
+		padding-left: var(--padding-27xl);
+		padding-bottom: 96px;
+	}
+	.textBlock {
+		padding-bottom: var(--padding-xl);
+	}
+	.blogsFrameWrapper {
+		padding-left: 55px;
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 1050px) {
+	.jumbochainIsPioneeringContainer {
+		font-size: var(--font-size-7xl);
+	}
+	.blogs,
+	.joinTheJumbochain,
+	.ourClients1 {
+		font-size: var(--font-size-32xl);
+	}
+}
+@media screen and (max-width: 750px) {
+	.ourMission,
+	.text {
+		box-sizing: border-box;
+	}
+	.ourMission {
+		padding-left: 133px;
+	}
+	.text {
+		padding-left: var(--padding-4xl);
+		padding-bottom: var(--padding-43xl);
+	}
+	.textBlock {
+		gap: 32px 0;
+	}
+	.blogsFrame {
+		gap: 58px 0;
+	}
+	.blogsFrameWrapper {
+		padding-left: var(--padding-8xl);
+		box-sizing: border-box;
+	}
+	.landingPageLight {
+		gap: 99px 0;
+	}
+}
+@media screen and (max-width: 450px) {
+	.ourMission {
+		padding-left: var(--padding-xl);
+		box-sizing: border-box;
+	}
+	.jumbochainIsPioneeringContainer {
+		font-size: var(--font-size-lgi);
+	}
+	.ourClients1 {
+		font-size: var(--font-size-19xl);
+	}
+	.ourClients {
+		max-width: calc(100% - 16px);
+	}
+	.blogs {
+		font-size: var(--font-size-19xl);
+	}
+	.minRead {
+		font-size: var(--font-size-base);
+	}
+	.joinTheJumbochain {
+		font-size: var(--font-size-19xl);
+	}
+	.whetherYouAre {
+		font-size: var(--font-size-lgi);
+	}
+	.landingPageLight {
+		gap: 99px 0;
+	}
+}

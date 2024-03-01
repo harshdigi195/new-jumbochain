@@ -1,0 +1,106 @@
+.frameChild {
+	align-self: stretch;
+	height: 518px;
+	position: relative;
+	border-radius: var(--br-xl);
+	background-color: var(--color-whitesmoke);
+	border: 2px solid var(--color-thistle-100);
+	box-sizing: border-box;
+	display: none;
+}
+.dec2023,
+.frameItem,
+.minRead {
+	position: relative;
+	flex-shrink: 0;
+	z-index: 1;
+}
+.frameItem {
+	align-self: stretch;
+	height: 292px;
+	border-radius: var(--br-xl) var(--br-xl) 0 0;
+	max-width: 100%;
+	overflow: hidden;
+	object-fit: cover;
+}
+.dec2023,
+.minRead {
+	height: 30px;
+	width: 160px;
+	display: inline-block;
+}
+.minRead {
+	width: 128px;
+}
+.dec2023Parent {
+	align-self: stretch;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: var(--gap-xl);
+}
+.navigatingTheFuture {
+	height: 68px;
+	width: 524px;
+	position: relative;
+	font-weight: 600;
+	display: inline-block;
+	flex-shrink: 0;
+	max-width: 100%;
+	z-index: 1;
+}
+.frameParent,
+.navigatingTheFutureProtojuWrapper,
+.rectangleParent {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+	max-width: 100%;
+}
+.navigatingTheFutureProtojuWrapper {
+	flex-direction: row;
+	padding: 0 var(--padding-5xs);
+	box-sizing: border-box;
+	font-size: var(--font-size-5xl);
+	font-family: var(--font-inter);
+}
+.frameParent,
+.rectangleParent {
+	width: 553px;
+	flex-direction: column;
+	gap: 24px 0;
+}
+.rectangleParent {
+	width: 574px;
+	border-radius: var(--br-xl);
+	background-color: var(--color-whitesmoke);
+	border: 2px solid var(--color-thistle-100);
+	box-sizing: border-box;
+	flex-shrink: 0;
+	align-items: flex-end;
+	padding: 0 0 var(--padding-72xl);
+	gap: 13px 0;
+	text-align: left;
+	font-size: var(--font-size-xl);
+	color: var(--color-black);
+	font-family: var(--font-sometype-mono);
+}
+@media screen and (max-width: 750px) {
+	.rectangleParent {
+		padding-bottom: var(--padding-40xl);
+		box-sizing: border-box;
+	}
+}
+@media screen and (max-width: 450px) {
+	.dec2023,
+	.minRead {
+		font-size: var(--font-size-base);
+	}
+	.dec2023Parent {
+		flex-wrap: wrap;
+	}
+	.navigatingTheFuture {
+		font-size: var(--font-size-lgi);
+	}
+}

@@ -1,0 +1,87 @@
+.childFrames1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-300);
+	width: 100%;
+	height: 100%;
+}
+.iconixtosolidlinkedin1 {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+	width: 41px;
+	height: 41px;
+	overflow: hidden;
+	z-index: 1;
+}
+.childFrames {
+	cursor: pointer;
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	width: 69px;
+	height: 69px;
+	position: relative;
+}
+.followers,
+.linkedin {
+	position: relative;
+	font-weight: 500;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.linkedin {
+	width: 114px;
+	height: 38px;
+}
+.followers {
+	height: 23px;
+	color: var(--color-thistle-200);
+}
+.childFrames2,
+.childFramesParent {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.childFramesParent {
+	gap: 33px 0;
+}
+.iconixtosolidarrowTopRight {
+	height: 36px;
+	width: 36px;
+	position: relative;
+	overflow: hidden;
+	flex-shrink: 0;
+}
+.iconixtosolidlinkedin {
+	width: 401px;
+	border-radius: var(--br-3xs);
+	background-color: var(--color-lavender-100);
+	overflow: hidden;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: space-between;
+	padding: var(--padding-11xl) var(--padding-18xl) var(--padding-20xl);
+	box-sizing: border-box;
+	max-width: 100%;
+	gap: var(--gap-xl);
+	text-align: center;
+	font-size: var(--font-size-5xl);
+	color: var(--color-black);
+	font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+	.followers,
+	.linkedin {
+		font-size: var(--font-size-lgi);
+	}
+	.iconixtosolidlinkedin {
+		flex-wrap: wrap;
+	}
+}

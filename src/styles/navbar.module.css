@@ -35,7 +35,7 @@
 }
 
 .MenuContainer {
-	width: 50%;
+	width: 60%;
 }
 
 .MainList {
@@ -54,6 +54,7 @@
 
 .MainList li span p {
 	position: relative;
+	font-size: 20px;
 }
 
 .MainList li span p::after {
@@ -285,3 +286,66 @@
 	color: #999;
 	width: 8rem;
 }
+
+.BtnContainer {
+	padding: 1.5rem 0rem;
+	margin-left: 2rem;
+}
+
+.themeBtn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	border: 1px solid #333;
+	border-radius: 16px;
+}
+
+.themeBtn:hover {
+	cursor: pointer;
+}
+
+@media (max-width: 768px) {
+	.container {
+		padding: 1rem;
+	}
+	.MenuContainer {
+		display: none;
+	}
+	.MobileMenu {
+		display: flex;
+		padding: 0rem 1rem;
+	}
+}
+
+/* @media (prefers-color-scheme: dark) {
+	.logoMain,
+	.logoSub {
+		color: #fff;
+	}
+	.dropdownContainer {
+		background-color: rgba(0, 0, 0, 0.5);
+		backdrop-filter: blur(20px);
+	}
+
+	.underlineOnHover:hover {
+		color: #90a4ff;
+		text-decoration: underline;
+	}
+
+	.dropdownRight > .dropdownHeadingActive {
+		background-color: rgba(255, 255, 255, 0.1);
+		color: #a142ff;
+	}
+
+	.BadgeNew::after {
+		background-color: rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(20px);
+		color: #5073ff;
+		border-color: #5073ff;
+	}
+
+	.themeBtn {
+		border: 1px solid #fff;
+	}
+} */

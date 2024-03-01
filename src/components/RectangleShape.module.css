@@ -1,0 +1,332 @@
+.ourPartners {
+	height: 52px;
+	width: 238px;
+	position: relative;
+	font-weight: 500;
+	display: inline-block;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	padding-right: var(--padding-xl);
+}
+.decorativeText {
+	width: 472px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	max-width: 100%;
+}
+.image53Icon,
+.image54Icon,
+.image55Icon,
+.image58Icon,
+.image59Icon {
+	height: 56.8px;
+	width: 151.2px;
+	position: relative;
+	flex-shrink: 0;
+	object-fit: cover;
+}
+.image55Icon,
+.image58Icon,
+.image59Icon {
+	height: 64.6px;
+	width: 158.5px;
+}
+.image58Icon,
+.image59Icon {
+	height: 76.3px;
+	width: 184px;
+	min-height: 76px;
+}
+.image57Icon {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: cover;
+}
+.discordIcon {
+	height: 62px;
+	width: 170px;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: var(--padding-11xs) 0 0;
+	box-sizing: border-box;
+}
+.image56Icon,
+.image60Icon {
+	height: 64.6px;
+	width: 163.9px;
+	position: relative;
+	flex-shrink: 0;
+	object-fit: cover;
+}
+.image60Icon {
+	height: 76.3px;
+	width: 184px;
+	min-height: 76px;
+}
+.linkedInIcon {
+	width: 1340px;
+	overflow-x: auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 0 22px;
+	max-width: 100%;
+}
+.blogFrame,
+.logoNode {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.blogFrame {
+	left: 7px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 21px 0;
+	max-width: 100%;
+}
+.logoNode {
+	left: 0;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-300);
+	height: 100%;
+}
+.iconixtosolidtree2 {
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	z-index: 1;
+}
+.navbarFrame {
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
+.sustainableAndLow {
+	width: 198px;
+	position: relative;
+	font-weight: 500;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.navbarFrameParent {
+	border-radius: var(--br-xs);
+	background-color: var(--color-white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: flex-start;
+	padding: var(--padding-xl) var(--padding-base);
+	gap: 0 19px;
+	z-index: 1;
+}
+.ourVisionFrameInner {
+	height: 149px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	min-width: 299px;
+}
+.joinCommunityFrame,
+.minReadNode {
+	align-self: stretch;
+	flex: 1;
+	position: relative;
+	border-radius: 50%;
+	background-color: var(--color-thistle-300);
+	z-index: 2;
+}
+.joinCommunityFrame {
+	background-color: var(--color-mediumslateblue);
+	box-shadow: 0 6.1px 6.08px rgba(0, 0, 0, 0.25);
+	z-index: 3;
+}
+.patents {
+	width: 134px;
+	position: relative;
+	display: inline-block;
+	flex-shrink: 0;
+	z-index: 4;
+	margin-left: -157px;
+}
+.blogsFrame,
+.protoJumboBetaVersionRed {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	box-sizing: border-box;
+}
+.protoJumboBetaVersionRed {
+	height: 234px;
+	width: 194px;
+	padding: var(--padding-xl) var(--padding-4xl) var(--padding-xl) 0;
+	margin-left: -227px;
+}
+.blogsFrame {
+	width: 280px;
+	flex: 1;
+	padding: 0 var(--padding-34xl) 0 0;
+}
+.twitterIconNode {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-300);
+	width: 100%;
+	height: 100%;
+}
+.iconixtosolidbranch {
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	z-index: 1;
+}
+.discordIconNode {
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
+.dappsIntegration {
+	flex: 1;
+	position: relative;
+	font-weight: 500;
+}
+.linkedInIconNode {
+	flex: 1;
+	border-radius: var(--br-xs);
+	background-color: var(--color-white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	padding: var(--padding-4xs) var(--padding-mini) var(--padding-4xs)
+		var(--padding-base);
+	gap: 0 19px;
+	z-index: 1;
+}
+.cartNode,
+.socialMediaIcons {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.socialMediaIcons {
+	align-self: stretch;
+	flex-direction: row;
+	padding: 0 var(--padding-12xs) 0 var(--padding-9xs);
+	text-align: left;
+	font-size: var(--font-size-xl);
+	color: var(--color-black);
+}
+.cartNode {
+	height: 337px;
+	width: 303px;
+	flex-direction: column;
+	min-width: 303px;
+	text-align: center;
+	font-size: var(--font-size-13xl);
+	color: var(--color-white);
+}
+.ourVisionFrame {
+	position: absolute;
+	top: 173px;
+	left: 458px;
+	width: 800px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	justify-content: space-between;
+	gap: var(--gap-xl);
+	max-width: 100%;
+	font-size: var(--font-size-xl);
+	color: var(--color-black);
+}
+.jumbochain {
+	color: var(--color-blueviolet-100);
+}
+.whyChooseJumbochainContainer {
+	margin: 0;
+	position: absolute;
+	top: 496px;
+	left: 0;
+	font-size: var(--font-size-45xl);
+	font-weight: 700;
+	font-family: inherit;
+	display: inline-block;
+	width: 580px;
+	height: 183px;
+}
+.rectangleShape {
+	align-self: stretch;
+	height: 679px;
+	position: relative;
+	max-width: 100%;
+	text-align: left;
+	font-size: var(--font-size-13xl);
+	color: var(--color-midnightblue);
+	font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+	.ourPartners,
+	.patents {
+		font-size: var(--font-size-7xl);
+	}
+	.whyChooseJumbochainContainer {
+		font-size: var(--font-size-32xl);
+	}
+}
+@media screen and (max-width: 750px) {
+	.cartNode,
+	.ourVisionFrameInner {
+		flex: 1;
+	}
+	.ourVisionFrame {
+		flex-wrap: wrap;
+	}
+	.rectangleShape {
+		height: auto;
+		min-height: 679;
+	}
+}
+@media screen and (max-width: 450px) {
+	.ourPartners {
+		font-size: var(--font-size-lgi);
+	}
+	.sustainableAndLow {
+		font-size: var(--font-size-base);
+	}
+	.patents {
+		font-size: var(--font-size-lgi);
+	}
+	.dappsIntegration {
+		font-size: var(--font-size-base);
+	}
+	.whyChooseJumbochainContainer {
+		font-size: var(--font-size-19xl);
+	}
+}

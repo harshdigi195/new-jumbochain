@@ -1,11 +1,90 @@
 'use client';
 import '@/styles/navbar.module.css';
 import styles from '@/styles/navbar.module.css';
-import { ArrowDown2 } from 'iconsax-react';
+import MailIcon from '@mui/icons-material/Mail';
+import InboxIcon from '@mui/icons-material/MoveToInbox';
+import Box from '@mui/material/Box';
+import Button from '@mui/material/Button';
+import Divider from '@mui/material/Divider';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemButton from '@mui/material/ListItemButton';
+import ListItemIcon from '@mui/material/ListItemIcon';
+import ListItemText from '@mui/material/ListItemText';
+import { ArrowDown2, HambergerMenu } from 'iconsax-react';
 import Image from 'next/image';
+import * as React from 'react';
 import { useState } from 'react';
 
+function TemporaryDrawer() {
+	const [open, setOpen] = React.useState(false);
+
+	const toggleDrawer = (newOpen) => () => {
+		setOpen(newOpen);
+	};
+
+	const DrawerList = (
+		<Box
+			sx={{ width: 250 }}
+			role='presentation'
+			onClick={toggleDrawer(false)}
+		>
+			<List>
+				{['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
+					<ListItem
+						key={text}
+						disablePadding
+					>
+						<ListItemButton>
+							<ListItemIcon>
+								{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+							</ListItemIcon>
+							<ListItemText primary={text} />
+						</ListItemButton>
+					</ListItem>
+				))}
+			</List>
+			<Divider />
+			<List>
+				{['All mail', 'Trash', 'Spam'].map((text, index) => (
+					<ListItem
+						key={text}
+						disablePadding
+					>
+						<ListItemButton>
+							<ListItemIcon>
+								{index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
+							</ListItemIcon>
+							<ListItemText primary={text} />
+						</ListItemButton>
+					</ListItem>
+				))}
+			</List>
+		</Box>
+	);
+
+	return (
+		<div>
+			<Button onClick={toggleDrawer(true)}>
+				<HambergerMenu
+					size='36'
+					color='#333'
+				/>
+			</Button>
+			<Drawer
+				open={open}
+				onClose={toggleDrawer(false)}
+				anchor='right'
+			>
+				{DrawerList}
+			</Drawer>
+		</div>
+	);
+}
+
 function Navbar() {
+	const [Theme, setTheme] = useState('dark');
 	const defaultState = {
 		Network: {
 			protojumbo: true,
@@ -665,9 +744,29 @@ function Navbar() {
 						</div>
 					</li>
 					<li>
-						<span className={styles.link}>Team</span>
+						<span className={styles.link}>
+							<p>Team</p>
+						</span>
 					</li>
+					{/* <div className={styles.BtnContainer}>
+						<div className={styles.themeBtn}>
+							{Theme === 'light' ? (
+								<Sun1
+									size='24'
+									color='#333'
+								/>
+							) : (
+								<Moon
+									size='24'
+									color='#FFF'
+								/>
+							)}
+						</div>
+					</div> */}
 				</ul>
+			</div>
+			<div className={styles.MobileMenu}>
+				<TemporaryDrawer />
 			</div>
 		</div>
 	);

@@ -9,6 +9,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 37px;
+	color: #5c5c5c;
 }
 
 .HeroText h1 {
@@ -34,6 +35,7 @@
 	border-radius: 30px;
 	font-size: 20px;
 	box-shadow: 0 4px 4px #9b76d8;
+	color: #fff;
 }
 
 .LightBtn1 {
@@ -106,6 +108,7 @@
 .textArea3 {
 	width: 85%;
 	font-size: 28px;
+	color: #5c5c5c;
 }
 .centerContainer {
 	padding: 10rem 0rem;
@@ -130,121 +133,21 @@
 .visionHeadline {
 	font-size: 48px;
 	font-weight: 600;
-	color: #881fef;
 }
 
 .visionBody {
 	font-size: 22px;
 	text-align: center;
-	color: #666;
 }
 
-.ClientContainer {
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-	gap: 2rem;
-	justify-content: center;
-	align-items: center;
-}
-
-.ClientHeadline {
-	font-size: 64px;
-	font-weight: 700;
-}
-
-.ClientBody {
-	width: 80%;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-evenly;
-}
-
-.ClientLogo {
-	background-color: #fff;
-	height: 256px;
-	width: 256px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 16px;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.ClientContent {
-	width: 40%;
-	font-size: 24px;
-	text-align: center;
-	font-weight: 500;
-}
-
-@media (max-width: 768px) {
-	.HeroContainer {
-		padding: 2rem 1rem;
-		display: flex;
-		flex-direction: column-reverse;
-		align-items: center;
-		gap: 2rem;
-	}
-
-	.HeroText {
-		width: 90%;
-		text-align: center;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	.HeroText h1 {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		font-size: 32px;
-	}
+@media (prefers-color-scheme: dark) {
 	.HeroText p {
-		font-size: 20px;
-		width: 100%;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		text-align: center;
-	}
-	.HeroImgClass {
-		width: 200px;
-		height: 200px;
-	}
-
-	.HeroBtnGroup {
-		flex-direction: column;
-		width: 100%;
-	}
-
-	.ColorBtn1,
-	.LightBtn1 {
-		width: 100%;
-	}
-
-	.textAreaSection {
-		padding: 0rem;
-	}
-
-	.textArea3 {
-		font-size: 24px;
-		font-weight: 600;
-	}
-}
-
-/* @media (prefers-color-scheme: dark) {
-	.visionContainer {
-		background-color: #2a1d3d;
-	}
-	.visionHeadline {
-		color: #fff;
-	}
-
-	.visionBody {
 		color: #ccc;
 	}
-} */
+	.ColorBtn1 {
+		color: #000;
+	}
+	.textArea3 {
+		color: #ccc;
+	}
+}

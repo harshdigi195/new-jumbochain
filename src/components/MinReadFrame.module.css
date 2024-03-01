@@ -1,0 +1,56 @@
+.protoJumboBetaVersionRed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-300);
+	width: 100%;
+	height: 100%;
+}
+.iconixtosolidfolderTransfer {
+	position: absolute;
+	top: 9px;
+	left: 9px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	z-index: 1;
+}
+.navigatingTheFutureFrame {
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
+.easyAdaptability {
+	flex: 1;
+	position: relative;
+	font-size: var(--font-size-xl);
+	font-weight: 500;
+	font-family: var(--font-inter);
+	color: var(--color-black);
+	text-align: left;
+}
+.minReadFrame {
+	cursor: pointer;
+	border: 0;
+	padding: var(--padding-4xs) var(--padding-mini) var(--padding-4xs)
+		var(--padding-base);
+	background-color: var(--color-white);
+	width: 298px;
+	border-radius: var(--br-xs);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	box-sizing: border-box;
+	gap: 0 19px;
+	z-index: 1;
+}
+@media screen and (max-width: 450px) {
+	.easyAdaptability {
+		font-size: var(--font-size-base);
+	}
+}

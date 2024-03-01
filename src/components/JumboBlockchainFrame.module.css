@@ -1,0 +1,184 @@
+.explore {
+	position: relative;
+	font-size: var(--font-size-5xl);
+	font-weight: 500;
+	font-family: var(--font-inter);
+	color: var(--color-white);
+	text-align: left;
+}
+.ourVisionFrame {
+	cursor: pointer;
+	border: 0;
+	padding: var(--padding-mini);
+	background-color: transparent;
+	width: 178px;
+	border-radius: var(--br-11xl);
+	background: linear-gradient(90deg, #824af7, #b76cff);
+	box-shadow: 0 4px 4px #9b76d8;
+	overflow: hidden;
+	flex-shrink: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+}
+.globeComponentIcon,
+.wrapperGlobeComponent {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+}
+.globeComponentIcon {
+	max-width: 100%;
+	overflow: hidden;
+	max-height: 100%;
+	object-fit: contain;
+	left: 0;
+	transform: scale(1.285);
+}
+.wrapperGlobeComponent {
+	margin: 0 !important;
+	right: -0.4px;
+	bottom: -0.2px;
+	left: 0.2px;
+	border-radius: 534.25px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 0;
+}
+.wrapperGlobeComponentParent {
+	height: 534px;
+	width: 534px;
+	margin: 0 !important;
+	position: absolute;
+	top: -423px;
+	left: -291px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: var(--padding-198xl) var(--padding-10xl);
+	box-sizing: border-box;
+}
+.jumboBlockchainLogo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-radius: 50%;
+	background-color: var(--color-blueviolet-300);
+	width: 100%;
+	height: 100%;
+}
+.iconixtosolidgrid2 {
+	position: absolute;
+	top: 10px;
+	left: 9px;
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+	z-index: 1;
+}
+.jumboBlockchainLogoParent,
+.plugPlay {
+	height: 50px;
+	width: 50px;
+	position: relative;
+}
+.plugPlay {
+	height: 24.7px;
+	width: 197.7px;
+	font-weight: 500;
+	display: inline-block;
+	flex-shrink: 0;
+}
+.frameGroup,
+.frameParent {
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.frameGroup {
+	flex: 1;
+	border-radius: var(--br-xs);
+	background-color: var(--color-white);
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+	overflow: hidden;
+	display: flex;
+	align-items: flex-start;
+	padding: var(--padding-xl) var(--padding-mini) var(--padding-xl)
+		var(--padding-base);
+	gap: 0 19px;
+	z-index: 1;
+}
+.frameParent {
+	align-self: stretch;
+	position: relative;
+}
+.blogsFrame,
+.blogsFrameInner,
+.frameParent {
+	display: flex;
+	align-items: flex-start;
+}
+.blogsFrameInner {
+	width: 299px;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: var(--padding-11xl) var(--padding-12xs) 0 0;
+	box-sizing: border-box;
+	min-width: 299px;
+}
+.blogsFrame {
+	align-self: stretch;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: var(--gap-xl);
+}
+.jumboBlockchainFrame,
+.rectangleFrame {
+	width: 686px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: var(--padding-10xl) var(--padding-12xs) 0 0;
+	box-sizing: border-box;
+	max-width: 100%;
+}
+.jumboBlockchainFrame {
+	width: 1208px;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 0 var(--padding-xl) var(--padding-11xl) 0;
+	gap: var(--gap-xl);
+	text-align: left;
+	font-size: var(--font-size-xl);
+	color: var(--color-black);
+	font-family: var(--font-inter);
+}
+@media screen and (max-width: 1050px) {
+	.jumboBlockchainFrame {
+		flex-wrap: wrap;
+	}
+}
+@media screen and (max-width: 750px) {
+	.blogsFrameInner {
+		flex: 1;
+		padding-right: 0;
+		box-sizing: border-box;
+	}
+	.blogsFrame {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+@media screen and (max-width: 450px) {
+	.explore {
+		font-size: var(--font-size-lgi);
+	}
+	.plugPlay {
+		font-size: var(--font-size-base);
+	}
+}
